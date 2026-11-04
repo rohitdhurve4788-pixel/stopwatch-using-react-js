@@ -128,7 +128,6 @@ let seconds=String(Math.floor(elasp % 60000/1000)).padStart(2,'0')
 let minutes=String(Math.floor(elasp / 60000)).padStart(2,'0')
 let ms=String(Math.floor(elasp % 1000/10)).padStart(2,'0')
 
-console.log(elasp, (elasp % 60000) / 60000);
   return (
     <div style={{ width: '100%', maxWidth: '520px' }}>
       <StopwatchHeader
