@@ -114,7 +114,7 @@ let formattime=(ms)=>{
   } return ()=>{    clearInterval(interval)}
 
 },[isRunning])
-console.log(elasp);
+
 
   // ── Wire your logic to these handlers ──
   const handleStart   = () => setRunning( true);
